@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wscs-web-admin/admin.iml" filepath="$PROJECT_DIR$/wscs-web-admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfinal-wscs.iml" filepath="$PROJECT_DIR$/jfinal-wscs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfinal3.iml" filepath="$PROJECT_DIR$/jfinal3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs-web-mobile/mobile.iml" filepath="$PROJECT_DIR$/wscs-web-mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" filepath="$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs-model/wscs-model.iml" filepath="$PROJECT_DIR$/wscs-model/wscs-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs-service-api/wscs-service-api.iml" filepath="$PROJECT_DIR$/wscs-service-api/wscs-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs-service-common/wscs-service-common.iml" filepath="$PROJECT_DIR$/wscs-service-common/wscs-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs-service-provider/wscs-service-provider.iml" filepath="$PROJECT_DIR$/wscs-service-provider/wscs-service-provider.iml" />
+    </modules>
+  </component>
+</project>

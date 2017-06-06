@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
+        <module name="mobile" />
+        <module name="weixin-sdk" />
+        <module name="wscs (1)" />
+        <module name="wscs-model" />
+        <module name="wscs-service-api" />
+        <module name="wscs-service-common" />
+        <module name="wscs-service-provider" />
+        <module name="wxwscs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="admin" target="1.8" />
+      <module name="jfinal-wscs" target="1.8" />
+      <module name="jfinal3" target="1.8" />
+      <module name="mobile" target="1.8" />
+      <module name="weixin-sdk" target="1.7" />
+      <module name="wscs" target="1.8" />
+      <module name="wscs-model" target="1.8" />
+      <module name="wscs-service-api" target="1.8" />
+      <module name="wscs-service-common" target="1.8" />
+      <module name="wscs-service-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
