@@ -1,1 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+/target/
+target
+.project
+/.settings/
+.settings
+.classpath
+.metadata
