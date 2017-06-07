@@ -22,8 +22,7 @@
       <module name="jfinal-wscs" target="1.8" />
       <module name="jfinal3" target="1.8" />
       <module name="mobile" target="1.8" />
-      <module name="weixin-sdk" target="1.7" />
-      <module name="wscs" target="1.8" />
+      <module name="weixin-sdk" target="1.8" />
       <module name="wscs-model" target="1.8" />
       <module name="wscs-service-api" target="1.8" />
       <module name="wscs-service-common" target="1.8" />

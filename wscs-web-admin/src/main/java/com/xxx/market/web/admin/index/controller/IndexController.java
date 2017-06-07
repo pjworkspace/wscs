@@ -132,7 +132,10 @@ public class IndexController extends BaseController{
 		}
 		redirect("/");
 	}
-	
+
+	/**
+	 * 登录
+	 */
 	@Clear
 	public void auth(){
 		final String phone = getPara("username");

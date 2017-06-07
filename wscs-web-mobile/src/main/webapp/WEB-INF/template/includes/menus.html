@@ -23,32 +23,58 @@
 }
 -->
 </style>
-<div id="menu-items" class="weui-tabbar toolbar-bottom">
-	<a id="nav-page-index" href="${webctx }/" class="weui-tabbar__item">
-		<div class="weui-tabbar__icon">
-			<img src="${webctx}/resources/images/mail/mail.png" alt="商城">
-		</div>
-		<p class="weui-tabbar__label">首页</p>
-	</a>
-	<a id="nav-page-index" href="${webctx }/product" class="weui-tabbar__item">
-		<div class="weui-tabbar__icon">
-		 <i class="tab_8_icon"></i>
-			<!-- <img src="${webctx}/resources/images/icon_nav_cell.png" alt="签到"> -->
-		</div>
-		<p class="weui-tabbar__label">商品分类</p>
-	</a>
-	<a id="nav-page-categ" href="${webctx}/cart" class="weui-tabbar__item">
-		<div class="weui-tabbar__icon">
-<!-- 			<img src="${webctx}/resources/images/icon_nav_article.png" alt="抽奖">-->
-          <i class="tab_9_icon"></i>
-		</div>
-		<p class="weui-tabbar__label">购物车</p>
-	</a>
-	<a id="nav-page-categ" href="${webctx }/user" class="weui-tabbar__item">
-		<div class="weui-tabbar__icon">
-			<!-- <img src="${webctx}/resources/images/icon_nav_article.png" alt="个人中心"> -->
-			<i class="tab_10_icon"></i>
-		</div>
-		<p class="weui-tabbar__label">个人中心</p>
-	</a>
-</div>
+<!--<div id="menu-items" class="weui-tabbar toolbar-bottom">-->
+	<!--<a id="nav-page-index" href="${webctx }/" class="weui-tabbar__item weui-bar__item&#45;&#45;on">-->
+		<!--&lt;!&ndash;<span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>&ndash;&gt;-->
+		<!--<div class="weui-tabbar__icon">-->
+			<!--&lt;!&ndash;<img src="${webctx}/resources/images/mail/mail.png" alt="">&ndash;&gt;-->
+			<!--<i class="aui-iconfont aui-icon-home"></i>-->
+		<!--</div>-->
+		<!--<p class="aui-text-danger">首页</p>-->
+	<!--</a>-->
+<!--&lt;!&ndash;	<div class="aui-col-xs-4">-->
+		<!--<i class="aui-iconfont aui-icon-home"></i>-->
+		<!--<p>home</p>-->
+	<!--</div>&ndash;&gt;-->
+	<!--<a id="nav-page-index" href="${webctx }/product" class="weui-tabbar__item">-->
+		<!--<div class="weui-tabbar__icon">-->
+		 <!--<i class="tab_8_icon"></i>-->
+			<!--&lt;!&ndash; <img src="${webctx}/resources/images/icon_nav_cell.png" alt="签到"> &ndash;&gt;-->
+		<!--</div>-->
+		<!--<p class="weui-tabbar__label">商品分类</p>-->
+	<!--</a>-->
+	<!--<a id="nav-page-categ" href="${webctx}/cart" class="weui-tabbar__item">-->
+		<!--<div class="weui-tabbar__icon">-->
+<!--&lt;!&ndash; 			<img src="${webctx}/resources/images/icon_nav_article.png" alt="抽奖">&ndash;&gt;-->
+          <!--<i class="tab_9_icon"></i>-->
+		<!--</div>-->
+		<!--<p class="weui-tabbar__label">购物车</p>-->
+	<!--</a>-->
+	<!--<a id="nav-page-categ" href="${webctx}/user" class="weui-tabbar__item">-->
+		<!--<div class="weui-tabbar__icon">-->
+			<!--&lt;!&ndash; <img src="${webctx}/resources/images/icon_nav_article.png" alt="个人中心"> &ndash;&gt;-->
+			<!--<i class="tab_10_icon"></i>-->
+		<!--</div>-->
+		<!--<p class="weui-tabbar__label">个人中心</p>-->
+	<!--</a>-->
+<!--</div>-->
+<footer class="aui-bar aui-bar-tab" id="menu-items">
+    <div class="aui-bar-tab-item aui-active" tapmode onclick="window.location.href='${webctx}/product';return false">
+        <i class="aui-iconfont aui-icon-home"></i>
+        <div class="aui-bar-tab-label">首页</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <i class="aui-iconfont aui-icon-menu"></i>
+        <div class="aui-bar-tab-label">分类</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <div class="aui-badge">99</div>
+        <i class="aui-iconfont aui-icon-cart"></i>
+        <div class="aui-bar-tab-label">购物车</div>
+    </div>
+    <div class="aui-bar-tab-item" tapmode>
+        <div class="aui-dot"></div>
+        <i class="aui-iconfont aui-icon-my"></i>
+        <div class="aui-bar-tab-label">我的</div>
+    </div>
+</footer>

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>商城首页</title>
+<title>网上超市</title>
 [#include "/includes/header.html" /]
 </head>
 <body>
@@ -11,7 +11,7 @@
 			<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
 				<div class="swiper-wrapper">
 					[#if shop?? && shop.shop_sign??]
-					<div class="swiper-slide"><a href="${webctx}/product"><img style="height: 150px;" src="${img_domain}${shop.shop_sign}" alt=""></a></div>
+					<div class="swiper-slide"><a href="${webctx}/product"><img style="height: 200px;" src="${img_domain}${shop.shop_sign}" alt=""></a></div>
 					[/#if]
 				</div>
 			</div>
@@ -30,7 +30,28 @@
 				[/#list]
 	        </div>
 	        [/#if]
-			
+
+            <div class="aui-card-list">
+                <div class="aui-card-list-content-padded aui-border-b aui-border-t">
+                    <div class="aui-row aui-row-padded">
+                        <div class="aui-col-xs-3">
+                            <img src="${img_domain}${shop.shop_sign}" />
+                            <div class="aui-grid-label" style="text-align: center">首页</div>
+                        </div>
+                        <div class="aui-col-xs-3">
+                            <img src="${img_domain}${shop.shop_sign}" />
+                        </div>
+                        <div class="aui-col-xs-3">
+                            <img src="${img_domain}${shop.shop_sign}" />
+                        </div>
+                        <div class="aui-col-xs-3">
+                            <img src="${img_domain}${shop.shop_sign}" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 			<div class="sales-title" style="margin-top: 0.7rem;">
 				<!-- <div class="weui-panel">
         			<div class="weui-panel__hd">文字组合列表</div>
@@ -51,42 +72,43 @@
 					</div>
 				</div>-->
 			</div>
-			<div class="weui-tab" style="margin-top: 0.7rem;">
-				<div class="weui-navbar">
-					<a class="weui-navbar__item weui-bar__item--on" href="#item-1"><span class="item-title">热卖商品</span></a>
-					<a class="weui-navbar__item" href="#item-2"><span class="item-title">最新上架</span></a>
-					<a class="weui-navbar__item" href="#item-3"><span class="item-title">店家推荐</span></a>
-				</div>
-				<div class="weui-tab__bd">
-					<div id="item-1" class="weui-row weui-no-gutter custom weui-tab__bd-item weui-tab__bd-item--active">
-						[#list hotProducts as product]
-						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
-							<img src="${product.mainPic}"/>
-							<div class="describe">${product.name}</div>
-							<div class="price">${product.price}</div>
-						</a>
-						[/#list]
-					</div>
-					<div id="item-2" class="weui-row weui-no-gutter custom weui-tab__bd-item">
-						[#list newProducts as product]
-						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
-							<img src="${product.mainPic}"/>
-							<div class="describe">${product.name}</div>
-							<div class="price">${product.price}</div>
-						</a>						
-						[/#list]
-					</div>
-					<div id="item-3" class="weui-row weui-no-gutter custom weui-tab__bd-item">
-						[#list commondProducts as product]
-						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
-							<img src="${product.mainPic}"/>
-							<div class="describe">${product.name}</div>
-							<div class="price">${product.price}</div>
-						</a>
-						[/#list]
-					</div>
-				</div>
-			</div>
+
+			<!--<div class="weui-tab" style="margin-top: 0.7rem;">-->
+				<!--<div class="weui-navbar">-->
+					<!--<a class="weui-navbar__item weui-bar__item&#45;&#45;on" href="#item-1"><span class="item-title">热卖商品</span></a>-->
+					<!--<a class="weui-navbar__item" href="#item-2"><span class="item-title">最新上架</span></a>-->
+					<!--<a class="weui-navbar__item" href="#item-3"><span class="item-title">店家推荐</span></a>-->
+				<!--</div>-->
+				<!--<div class="weui-tab__bd">-->
+					<!--<div id="item-1" class="weui-row weui-no-gutter custom weui-tab__bd-item weui-tab__bd-item&#45;&#45;active">-->
+						<!--[#list hotProducts as product]-->
+						<!--<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">-->
+							<!--<img src="${product.mainPic}"/>-->
+							<!--<div class="describe">${product.name}</div>-->
+							<!--<div class="price">${product.price}</div>-->
+						<!--</a>-->
+						<!--[/#list]-->
+					<!--</div>-->
+					<!--<div id="item-2" class="weui-row weui-no-gutter custom weui-tab__bd-item">-->
+						<!--[#list newProducts as product]-->
+						<!--<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">-->
+							<!--<img src="${product.mainPic}"/>-->
+							<!--<div class="describe">${product.name}</div>-->
+							<!--<div class="price">${product.price}</div>-->
+						<!--</a>						-->
+						<!--[/#list]-->
+					<!--</div>-->
+					<!--<div id="item-3" class="weui-row weui-no-gutter custom weui-tab__bd-item">-->
+						<!--[#list commondProducts as product]-->
+						<!--<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">-->
+							<!--<img src="${product.mainPic}"/>-->
+							<!--<div class="describe">${product.name}</div>-->
+							<!--<div class="price">${product.price}</div>-->
+						<!--</a>-->
+						<!--[/#list]-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
 			<!-- /热卖产品 -->
 			
 			[#if indexProducts?? && indexProducts?size>0]
@@ -98,7 +120,7 @@
 					<div class="goods-particulars">
 						<!-- <img class="logo" src="${webctx}/jqweui/images/logo-3.jpg"/> -->
 						<div class="goods-describe f-toe">${product.name}</div>
-						<div class="goods-privilege f-toe">￥${product.price}</div>
+						<div class="goods-privilege f-toe">￥${product.price}22222</div>
 					</div>
 					</a>
 				</div>				

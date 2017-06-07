@@ -1,5 +1,6 @@
 // jshint ignore: start
 +function($){
+
 $.rawCitiesData = [
   {
     "name":"北京",

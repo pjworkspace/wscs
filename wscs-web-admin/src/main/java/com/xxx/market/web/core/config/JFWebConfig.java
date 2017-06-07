@@ -35,6 +35,7 @@ public final class JFWebConfig extends JFinalConfig{
 
 	private Logger logger = Logger.getLogger(JFWebConfig.class);
 	private Routes routes;
+
 	@Override
 	public void configConstant(Constants me) {
 		loadPropertyFile("system.properties");
