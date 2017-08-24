@@ -195,6 +195,6 @@
 		<module>weixin-sdk</module>
 		<module>wscs-web-admin</module>
 		<module>wscs-web-mobile</module>
-		<module>jfinal-generator</module>
+		<!--<module>jfinal-generator</module>-->
 	</modules>
 </project>
