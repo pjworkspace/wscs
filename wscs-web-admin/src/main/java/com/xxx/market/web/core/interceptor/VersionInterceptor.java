@@ -1,10 +1,3 @@
-/**
- * 文件名:VersionInterceptor.java
- * 版本信息:1.0
- * 日期:2015-8-26
- * Copyright 广州点步信息科技
- * 版权所有
- */
 package com.xxx.market.web.core.interceptor;
 
 import org.apache.log4j.Logger;
@@ -17,8 +10,7 @@ import com.jfinal.aop.Invocation;
 import com.jfinal.core.Controller;
 
 /**
- * @author: wjun.java@gmail.com
- * @date:2015-8-26
+ *拦截器
  */
 public class VersionInterceptor implements Interceptor{
 

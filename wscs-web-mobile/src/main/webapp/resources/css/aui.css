@@ -2618,20 +2618,6 @@ img .aui-grid-label{
 	font-family: "aui_iconfont";
 	src: url('aui-iconfont.ttf') format('truetype');
 }
-.crop-technique3 {
-	float: left;
-	margin: 0.5em 10px 0.5em 0;
-	overflow: hidden !important;/*this is important*/
-	position: relative !important;/*this is important*/
-	border: 0px solid #ccc;
-	width: 90px;
-	height: 90px;
-}
-
-.crop-technique3 img {
-	position: relative !important;/*this is important*/
-
-}
 
 .aui-iconfont {
 	position: relative;

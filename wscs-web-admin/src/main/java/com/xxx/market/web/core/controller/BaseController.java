@@ -1,10 +1,4 @@
-/**
- * 文件名:BaseController.java
- * 版本信息:1.0
- * 日期:2015-5-9
- * Copyright 广州点步信息科技
- * 版权所有
- */
+
 package com.xxx.market.web.core.controller;
 
 import java.io.IOException;
@@ -30,10 +24,7 @@ import com.jfinal.render.JsonRender;
 import com.weixin.sdk.api.ApiConfig;
 import com.weixin.sdk.kit.WxSdkPropKit;
 
-/**
- * @author: wjun.java@gmail.com
- * @date:2015-5-9
- */
+
 @Before({IocInterceptor.class})
 public abstract class BaseController extends ApiController {
 	protected static final String CACHENAME_COMP_TIKET = "comp_tiket_cache";

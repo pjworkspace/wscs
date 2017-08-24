@@ -50,6 +50,7 @@ public final class JFWebConfig extends JFinalConfig{
 	 */
 	@Override
 	public void configConstant(Constants me) {
+		me.setDevMode(true);//设置开发者模式
 		loadPropertyFile("mobile.properties");
 		PropKit.use("mobile.properties");
 		me.setEncoding("UTF-8");

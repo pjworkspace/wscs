@@ -1,10 +1,4 @@
-/**
- * 文件名:AdminBaseController.java
- * 版本信息:1.0
- * 日期:2015-5-9
- * Copyright 广州点步信息科技
- * 版权所有
- */
+
 package com.xxx.market.web.core.controller;
 
 import java.text.ParseException;
@@ -22,10 +16,7 @@ import com.jfinal.plugin.activerecord.Model;
 import com.jfinal.plugin.activerecord.Table;
 import com.jfinal.plugin.activerecord.TableMapping;
 
-/**
- * @author: wjun.java@gmail.com
- * @date:2015-5-9
- */
+
 public abstract class AdminBaseController <M extends Model<M>> extends BaseController {
 	
 	protected abstract Class<M> getModelClass();

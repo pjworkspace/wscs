@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/wscs-web-admin/admin.iml" filepath="$PROJECT_DIR$/wscs-web-admin/admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jfinal-wscs.iml" filepath="$PROJECT_DIR$/jfinal-wscs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfinal-generator/jfinal-generator.iml" filepath="$PROJECT_DIR$/jfinal-generator/jfinal-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/wscs-web-mobile/mobile.iml" filepath="$PROJECT_DIR$/wscs-web-mobile/mobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" filepath="$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wscs.iml" filepath="$PROJECT_DIR$/wscs.iml" />
       <module fileurl="file://$PROJECT_DIR$/wscs-model/wscs-model.iml" filepath="$PROJECT_DIR$/wscs-model/wscs-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/wscs-service-api/wscs-service-api.iml" filepath="$PROJECT_DIR$/wscs-service-api/wscs-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wscs-service-common/wscs-service-common.iml" filepath="$PROJECT_DIR$/wscs-service-common/wscs-service-common.iml" />

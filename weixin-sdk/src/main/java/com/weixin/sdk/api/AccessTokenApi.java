@@ -72,9 +72,9 @@ public class AccessTokenApi {
 				return new AccessToken(json);
 			}
 		});
-		
 		// 三次请求如果仍然返回了不可用的 access token 仍然 put 进去，便于上层通过 AccessToken 中的属性判断底层的情况
 		accessTokenCache.set(ac.getAppId(), result);
 	}
+
 
 }

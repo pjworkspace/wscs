@@ -34,8 +34,8 @@
                 <input id="password" name="password" value="123456" type="password" class="form-control" placeholder="密码" required=""/>
             </div>
             <div class="form-group">
-				<div class="controls">
-					<label class="input-group col-sm-5">
+				<div class="controls form-inline">
+					<label class="input-group col-sm-5 pull-left">
 						<input class="form-control" type="text" id="captcha" name="captchaToken" placeholder="验证码"/>
 					</label>
 					<label class="input-group col-sm-5">
@@ -44,7 +44,7 @@
 				</div>
 			</div>
             <button id="loginBtn" type="button" class="btn btn-primary block full-width m-b">登 录</button>
-            <%-- <p class="text-muted text-center"> <a href="login.html#"><small>忘记密码了？</small></a> | 
+            <%-- <p class="text-muted text-center"> <a href="login.html#"><small>忘记密码了？</small></a> |
             <a href="${pageContext.request.contextPath}/register">注册一个新账号</a> --%>
             </p>
         </form>
