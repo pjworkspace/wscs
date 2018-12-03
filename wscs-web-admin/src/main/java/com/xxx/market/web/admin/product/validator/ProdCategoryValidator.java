@@ -3,6 +3,9 @@ package com.xxx.market.web.admin.product.validator;
 import com.xxx.market.web.core.validator.BaseJsonRenderValidator;
 import com.jfinal.core.Controller;
 
+/**
+ * @author jun
+ */
 public class ProdCategoryValidator extends BaseJsonRenderValidator{
 
 	@Override

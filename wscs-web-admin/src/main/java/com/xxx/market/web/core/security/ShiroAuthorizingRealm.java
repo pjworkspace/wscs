@@ -36,6 +36,7 @@ public class ShiroAuthorizingRealm extends AuthorizingRealm{
 	 * @return
 	 * @throws org.apache.shiro.authc.AuthenticationException
 	 */
+	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
 		UsernamePasswordToken userToken = (UsernamePasswordToken) token;
 		SellerUser admin = null;
@@ -58,6 +59,7 @@ public class ShiroAuthorizingRealm extends AuthorizingRealm{
 	 *            用户信息
 	 * @return
 	 */
+	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		String loginName = ((SellerUser) principals.fromRealm(getName()).iterator().next()).getNick();
 		SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();

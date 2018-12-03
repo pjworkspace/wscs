@@ -58,6 +58,7 @@ public class WeixinMsgController extends MsgController {
      * 如果要支持多公众账号，只需要在此返回各个公众号对应的  ApiConfig 对象即可
      * 可以通过在请求 url 中挂参数来动态从数据库中获取 ApiConfig 属性值
      */
+    @Override
     public ApiConfig getApiConfig() {
         ApiConfig ac = new ApiConfig();
 

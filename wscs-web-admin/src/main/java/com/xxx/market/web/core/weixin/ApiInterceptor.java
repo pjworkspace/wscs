@@ -11,6 +11,7 @@ import com.weixin.sdk.api.ApiConfigKit;
  */
 public class ApiInterceptor implements Interceptor {
 	
+	@Override
 	public void intercept(Invocation inv) {
 		Controller controller = inv.getController();
 		if (controller instanceof ApiController == false)

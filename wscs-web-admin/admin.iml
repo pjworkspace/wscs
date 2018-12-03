@@ -77,6 +77,11 @@
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-ehcache:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.6.11" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.qiniu:qiniu-java-sdk:7.2.13" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.9.1" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.qiniu:happy-dns-java:0.1.6" level="project" />
     <orderEntry type="module" module-name="wscs-service-provider" />
     <orderEntry type="module" module-name="wscs-service-api" />
     <orderEntry type="module" module-name="wscs-service-common" />
@@ -140,6 +145,5 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp:okhttp:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.6.0" level="project" />
   </component>
 </module>

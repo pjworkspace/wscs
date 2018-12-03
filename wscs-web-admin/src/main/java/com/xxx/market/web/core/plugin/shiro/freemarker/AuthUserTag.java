@@ -23,6 +23,7 @@ public class AuthUserTag extends SecureTag {
 	private static final String CACHENAME_KEY = "key";
 	
 	@Override
+	@Deprecated
 	public void render(Environment env, Map params, TemplateDirectiveBody body) throws IOException, TemplateException {
 		if (getSubject() != null) {
 			Object principal = getSubject().getPrincipal();

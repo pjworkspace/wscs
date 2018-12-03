@@ -49,7 +49,8 @@ public abstract class MsgController extends BaseController {
 	private String inMsgXml = null;		// 本次请求 xml数据
 	private InMsg inMsg = null;			// 本次请求 xml 解析后的 InMsg 对象
 	
-	public abstract ApiConfig getApiConfig();
+	@Override
+    public abstract ApiConfig getApiConfig();
 	
 	protected AuthUser authUser;
 	
